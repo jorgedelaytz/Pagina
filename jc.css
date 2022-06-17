@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2? family= Macondo & display=swap');
+
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Macondo', cursive;
+
+}
+
+body {
+    /* background rgb(50, 50, 50); */
+text-align: center;
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container {
+color: aqua;
+
+}
+
+video{
+    position: absolute;
+    width: 100vw;
+    height: 100%    ;
+    z-index: -1;
+}
+
+p{
+    font-size: 22px;
+    margin-bottom: 7px;
+}
+
+.caja{
+    background: #f1f1f1;
+    width: 400px;
+    height: 450px;
+
+    margin: 0px  auto 0px;
+    /* padding-top: 15px; */
+    text-align: center;
+    padding: 50px 10px 5px;
+
+    border-radius: 7px;
+    /* border: 3px solid black; */
+    /* outline: 3px solid black; */
+
+    -webkit-box-shadow: 11px 10px 22px -1px rgba(0,0,0,0.59);
+    -moz-box-shadow: 11px 10px 22px -1px rgba(0,0,0,0.59);
+    box-shadow: 11px 10px 22px -1px rgba(0,0,0,0.59);
+   
+}
+
+
+.datos{
+    /* background: grey; */
+    width: 70%;
+    margin: 50px auto;
+    text-align: left;
+}
+
+/* .datos p{
+    text-align: left;
+} */
+
+.password{
+    margin-top: 32px;
+}
+
+.datos input{
+    width: 100%;
+    height: 28px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    padding-left: 7px;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    -webkit-box-shadow: 0px 10px 13px -7px hsl(0, 0%, 0%), 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    font-weight: bold;
+
+    display: block;
+    margin: auto;
+}
+
+button:hover{
+    background: rgb(189, 125, 14);
+    color: #331804;
+    margin-bottom: 15px;
+}
+
+
+.caja a{
+    margin-top: 15px;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
